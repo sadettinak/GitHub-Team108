@@ -17,6 +17,6 @@ public class Hastane {
             p1.personelIsmi="Kemal";
             Hastane p3= new Hastane();
             p3.personelTel="3121232323";
-        System.out.println((p1)+personelIsmi);
+
     }
 }
