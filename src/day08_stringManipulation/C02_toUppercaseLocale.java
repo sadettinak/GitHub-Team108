@@ -12,6 +12,7 @@ public class C02_toUppercaseLocale {
         System.out.println(str.toUpperCase()); // SEVGI INSANI HAYATA BAĞLAR
         str=str.toUpperCase(Locale.forLanguageTag("Tr"));
         str=str.toLowerCase(Locale.forLanguageTag("Tr"));
-        System.out.println(str); // SEVGİ İNSANI HAYATA BAĞLAR
+        str=str.toUpperCase(Locale.forLanguageTag("Tr"));
+        System.out.println(str+str); // SEVGİ İNSANI HAYATA BAĞLAR
     }
 }
